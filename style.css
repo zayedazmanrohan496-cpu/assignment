@@ -50,17 +50,51 @@ nav button {
 /* Header and Navigation End */
 
 
+
+/* Hero Section Start */
+
+
+
+.hero-section {
+    background-image: url(./image/banner.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    padding: 140px 0px;
+}
+
 .hero-section h2 {
     text-align: center;
+    color: white;
+    font-size: 80px;
+    font-family: "Inter", sans-serif;
+}
+
+.hero-section span {
+    font-style: italic;
+    font-family: "Inter", sans-serif;
 }
 
 .hero-section p {
     text-align: center;
-    padding: 18px 515px;
+    padding: 18px 490px;
+    color: white;
+    font-family: "Inter", sans-serif;
 }
 
 .hero-section button {
     display: block;
     margin: 0 auto;
-    margin-top: 120px;
+    margin-top: 220px;
+    background-color: #1D4ED8;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 18px 55px;
+    border-radius: 8px;
+    font-size: 18px;
 }
+
+
+/* Hero Section End */
+
