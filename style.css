@@ -5,6 +5,10 @@
 }
 
 
+body {
+    font-family: "Inter", sans-serif;
+}
+
 .container {
     max-width: 1200px;
     margin: auto;
@@ -28,6 +32,8 @@ nav ul {
 nav ul li {
     display: inline-block;
     padding: 0px 16px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
 }
 
 nav ul li a {
@@ -43,6 +49,8 @@ nav button {
     font-weight: bold;
     border: none;
     border-radius: 8px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
 }
 
 
@@ -68,6 +76,7 @@ nav button {
     color: white;
     font-size: 80px;
     font-family: "Inter", sans-serif;
+    font-weight: bold;
 }
 
 .hero-section span {
@@ -93,6 +102,7 @@ nav button {
     padding: 18px 55px;
     border-radius: 8px;
     font-size: 18px;
+    font-family: "Inter", sans-serif;
 }
 
 
@@ -103,7 +113,8 @@ nav button {
 .speakers-section h2 {
     text-align: center;
     font-family: "Inter", sans-serif;
-    font-size: 50px;
+    font-size: 56px;
+    font-weight: bold;
     margin-top: 10px;
     padding: 40px 0px;
 }
@@ -138,14 +149,14 @@ nav button {
 .card p {
     margin-top: 10px;
     color: #2563EB;
-    font-size: 14px;
-     font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
 }
 
 .card h4 {
     padding: 8px 0px;
     padding-left: 15px;
-    font-size: 22px;
+    font-size: 20px;
     color: #0D1B2A;
      font-family: "Inter", sans-serif;
 }
@@ -153,9 +164,265 @@ nav button {
 .card span {
     color: #575757;
     font-family: "Inter", sans-serif;
+    font-size: 14px;
 }
 
 
 
 /* Speakers Section End */
 
+
+
+/* Secure your spot section start */
+
+.secure-section {
+    margin-top: 100px;
+}
+
+
+
+.secure-section h2 {
+   color: #0D1B2A;
+   font-size: 48px;
+   font-weight: bold;
+   font-family: "Inter", sans-serif;
+   text-align: center;
+}
+
+.secure-section p {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 15px;
+    color: #575757;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 20px;
+}
+
+
+
+.box-card {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,360px);
+    gap: 60px;
+}
+
+
+/* Box styling */
+
+
+.box {
+    height: 460px;
+    padding: 30px 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+
+.box p {
+    text-align: start;
+    padding-bottom: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+.box h3 {
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    padding: 3px 0px;
+}
+
+.box span {
+    padding-left: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+.box hr {
+    margin-top: 30px;
+}
+
+
+.box ul {
+    padding-left: 18px;
+    padding-top: 5px;
+    color: #2563EB;
+}
+
+
+.box ul li {
+    padding-top: 14px;
+    color: #333333;
+}
+
+.box button {
+    display: block;
+    margin:  0 auto;
+    margin-top: 30px;
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 8px;
+}
+
+
+
+
+.box-1 p {
+    color: #888888;
+}
+
+.box-1 span {
+    color: #888888;
+}
+
+.box-1 h3 {
+    color: #0D1B2A;
+}
+
+.box-1 button {
+    border-color: #2563EB;
+    color: #2563EB;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+
+
+.box-2 {
+    background-color: #0D1B2A;
+}
+
+.box-2 h3 {
+    color:white;
+}
+
+.box-2 ul li {
+    color: white;
+}
+
+.box-2 p {
+    color: #93C5FD;
+}
+
+
+.box-2 span {
+    color: white;
+}
+
+.box-2 button {
+    background-color: #2563EB;
+    border-color: #2563EB;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+.box-3 p {
+    color: #888888;
+}
+
+.box-3 span {
+    color: #888888;
+}
+
+.box-3 h3 {
+    color: #0D1B2A;
+}
+
+.box-3 button {
+    color: #0D1B2A;
+    background-color: transparent;
+    border-color: #0D1B2A;
+    font-weight: bold;
+}
+
+
+/* Secure your spot section End */
+
+
+
+
+/* Something Missing Section Start */
+
+
+
+/* ===========================
+   Why Attend Section
+=========================== */
+
+.why-attend{
+    padding:100px 0;
+    background:#f7f9fc;
+}
+
+.container{
+    width:85%;
+    margin:auto;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.section-title h2{
+    font-size:52px;
+    color:#111827;
+    margin-bottom:15px;
+}
+
+.section-title p{
+    font-size:18px;
+    color:#6b7280;
+    max-width:700px;
+    margin:auto;
+    line-height:1.7;
+}
+
+.feature-wrapper{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+}
+
+.feature-card{
+    background:#fff;
+    padding:40px;
+    border-radius:16px;
+    transition:.3s;
+    border:1px solid #e5e7eb;
+}
+
+.feature-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+}
+
+.icon{
+    width:70px;
+    height:70px;
+    background:#2563eb;
+    color:#fff;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+    margin-bottom:25px;
+}
+
+.feature-card h3{
+    font-size:28px;
+    margin-bottom:15px;
+    color:#111827;
+}
+
+.feature-card p{
+    color:#6b7280;
+    line-height:1.8;
+    font-size:17px;
+}
+
+
+
+/* Something Missing Section End */
