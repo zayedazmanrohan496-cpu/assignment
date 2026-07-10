@@ -98,3 +98,64 @@ nav button {
 
 /* Hero Section End */
 
+/* Speakers Section Start */
+
+.speakers-section h2 {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+    margin-top: 10px;
+    padding: 40px 0px;
+}
+
+
+.card-section {
+    display: grid;
+    grid-template-columns:repeat(2,600px);
+    gap: 30px;
+    padding-bottom: 60px;
+    padding-top: 10px;
+}
+
+
+/* Card Styling */
+
+.card {
+    border: 0.5px solid gray;
+    border-radius: 20px;
+    padding-bottom: 15px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card p,span {
+   padding-left: 15px;
+}
+
+.card p {
+    margin-top: 10px;
+    color: #2563EB;
+    font-size: 14px;
+     font-family: "Inter", sans-serif;
+}
+
+.card h4 {
+    padding: 8px 0px;
+    padding-left: 15px;
+    font-size: 22px;
+    color: #0D1B2A;
+     font-family: "Inter", sans-serif;
+}
+
+.card span {
+    color: #575757;
+    font-family: "Inter", sans-serif;
+}
+
+
+
+/* Speakers Section End */
+
