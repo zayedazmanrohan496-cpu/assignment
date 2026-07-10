@@ -423,6 +423,46 @@ nav button {
     font-size:17px;
 }
 
-
-
 /* Something Missing Section End */
+
+
+/* Footer Section Start */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    background-color: #0D1B2A;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+
+
+.left-side p {
+    color: rgb(213, 213, 213);
+    font-size: 16px;
+}
+
+
+.right-side a {
+   text-decoration: none;
+   font-size: 16px;
+}
+
+.privacy {
+   color: rgb(213, 213, 213);
+}
+
+.service {
+    margin-left: 20px;
+    color: rgb(213, 213, 213);
+}
+
+
+/* Footer Section End */
