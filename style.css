@@ -94,7 +94,7 @@ nav button {
 .hero-section button {
     display: block;
     margin: 0 auto;
-    margin-top: 220px;
+    margin-top: 200px;
     background-color: #1D4ED8;
     color: white;
     font-weight: bold;
@@ -139,7 +139,7 @@ nav button {
 
 .card img {
     width: 100%;
-    border-radius: 20px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .card p,span {
