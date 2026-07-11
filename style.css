@@ -88,7 +88,7 @@ nav button {
 .hero-section p {
     text-align: center;
     padding: 18px 490px;
-    color: white;
+    color: rgba(255, 255, 255, 0.9);
     font-family: "Inter", sans-serif;
 }
 
@@ -261,10 +261,23 @@ nav button {
 }
 
 
+
+
 .box ul li {
     padding-top: 14px;
     color: #333333;
 }
+
+
+/* I use gemini for this code */
+
+/* code start */
+
+.box ul li::marker {
+    color: #2563EB; 
+}
+
+/* code end */
 
 .box button {
     display: block;
@@ -309,7 +322,7 @@ nav button {
 }
 
 .box-2 ul li {
-    color: white;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .box-2 p {
