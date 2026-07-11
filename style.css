@@ -65,11 +65,25 @@ nav button {
 
 
 .hero-section {
-    background-image: url(./image/banner.jpg);
+    
+/* background-image: url(./image/banner.jpg); */
+
+/* Problem solved from support group */
+
+background-image: linear-gradient(
+    to top, 
+      rgba(0, 0, 0, 0.95) 0%, 
+      rgba(0, 0, 0, 0.6) 50%,     
+      rgba(0, 0, 0, 0.1) 100%  
+  ), 
+
+  url('./image/banner.jpg');
+
+
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    padding: 140px 0px;
+    padding: 160px 0px;
 }
 
 .hero-section h2 {
