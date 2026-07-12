@@ -101,7 +101,9 @@ background-image: linear-gradient(
 
 .hero-section p {
     text-align: center;
-    padding: 18px 490px;
+    max-width: 700px;
+    margin: 20px auto 0 auto;
+    padding: 0px 15px;
     color: rgba(255, 255, 255, 0.9);
     font-family: "Inter", sans-serif;
 }
@@ -139,7 +141,7 @@ background-image: linear-gradient(
 
 .card-section {
     display: grid;
-    grid-template-columns:repeat(2,600px);
+    grid-template-columns:repeat(2,1fr);
     gap: 30px;
     padding-bottom: 60px;
     padding-top: 10px;
@@ -226,7 +228,7 @@ background-image: linear-gradient(
 .box-card {
     margin-top: 20px;
     display: grid;
-    grid-template-columns: repeat(3,360px);
+    grid-template-columns: repeat(3,1fr);
     gap: 60px;
 }
 
